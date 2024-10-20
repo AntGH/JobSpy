@@ -79,6 +79,9 @@ Optional
 ├── proxies (list): 
 |    in format ['user:pass@host:port', 'localhost']
 |    each job board scraper will round robin through the proxies
+|
+├── ca_cert (str)
+|    path to CA Certificate file for proxies
 │
 ├── is_remote (bool)
 │
@@ -165,10 +168,7 @@ Indeed specific
 ├── company_employees_label
 ├── company_revenue_label
 ├── company_description
-├── ceo_name
-├── ceo_photo_url
-├── logo_photo_url
-└── banner_photo_url
+└── logo_photo_url
 ```
 
 ## Supported Countries for Job Searching
